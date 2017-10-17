@@ -1,0 +1,115 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace TopDeskApiv2.TopDeskDatabase
+{
+    public partial class MutatieChange
+    {
+        public long Bestedetijd { get; set; }
+        public DateTime? Datwijzig { get; set; }
+        public Guid? MutBenefitid { get; set; }
+        public bool MutBenefitidAct { get; set; }
+        public Guid? MutBenefitidRid { get; set; }
+        public DateTime? MutCloseddate { get; set; }
+        public bool MutCloseddateAct { get; set; }
+        public Guid? MutCloseddateRid { get; set; }
+        public DateTime? MutCompleteddate { get; set; }
+        public bool MutCompleteddateAct { get; set; }
+        public Guid? MutCompleteddateRid { get; set; }
+        public DateTime? MutFinaldate { get; set; }
+        public bool MutFinaldateAct { get; set; }
+        public Guid? MutFinaldateRid { get; set; }
+        public Guid? MutImpactid { get; set; }
+        public bool MutImpactidAct { get; set; }
+        public Guid? MutImpactidRid { get; set; }
+        public Guid? MutManagerid { get; set; }
+        public bool MutManageridAct { get; set; }
+        public Guid? MutManageridRid { get; set; }
+        public Guid? MutMilestoneid { get; set; }
+        public bool MutMilestoneidAct { get; set; }
+        public Guid? MutMilestoneidRid { get; set; }
+        public Guid? MutOperatorid { get; set; }
+        public bool MutOperatoridAct { get; set; }
+        public Guid? MutOperatoridRid { get; set; }
+        public DateTime? MutImplementationdate { get; set; }
+        public bool MutImplementationdateAct { get; set; }
+        public Guid? MutImplementationdateRid { get; set; }
+        public Guid? MutProAuthoperatorid { get; set; }
+        public bool MutProAuthoperatoridAct { get; set; }
+        public Guid? MutProAuthoperatoridRid { get; set; }
+        public Guid? MutProAuthpersonid { get; set; }
+        public bool MutProAuthpersonidAct { get; set; }
+        public Guid? MutProAuthpersonidRid { get; set; }
+        public DateTime? MutAuthorizationdate { get; set; }
+        public bool MutAuthorizationdateAct { get; set; }
+        public Guid? MutAuthorizationdateRid { get; set; }
+        public DateTime? MutPlannedauthdate { get; set; }
+        public bool MutPlannedauthdateAct { get; set; }
+        public Guid? MutPlannedauthdateRid { get; set; }
+        public Guid? MutReqAuthoperatorid { get; set; }
+        public bool MutReqAuthoperatoridAct { get; set; }
+        public Guid? MutReqAuthoperatoridRid { get; set; }
+        public Guid? MutReqAuthpersonid { get; set; }
+        public bool MutReqAuthpersonidAct { get; set; }
+        public Guid? MutReqAuthpersonidRid { get; set; }
+        public int MutStatus { get; set; }
+        public Guid? MutStatusid { get; set; }
+        public bool MutStatusidAct { get; set; }
+        public Guid? MutStatusidRid { get; set; }
+        public Guid? MutVersionid { get; set; }
+        public bool MutVersionidAct { get; set; }
+        public Guid? MutVersionidRid { get; set; }
+        public Guid? Parentid { get; set; }
+        public Guid? Uidwijzig { get; set; }
+        public Guid Unid { get; set; }
+        public Guid? MutEvalAuthoperatorid { get; set; }
+        public bool MutEvalAuthoperatoridAct { get; set; }
+        public Guid? MutEvalAuthoperatoridRid { get; set; }
+        public Guid? MutEvalAuthpersonid { get; set; }
+        public bool MutEvalAuthpersonidAct { get; set; }
+        public Guid? MutEvalAuthpersonidRid { get; set; }
+        public Guid? MutPriorityid { get; set; }
+        public Guid? MutPriorityidRid { get; set; }
+        public bool MutPriorityidAct { get; set; }
+        public int Importtype { get; set; }
+        public string Importid { get; set; }
+        public DateTime? Importdate { get; set; }
+
+        public Mutatiereden MutAuthorizationdateR { get; set; }
+        public Changebenefit MutBenefit { get; set; }
+        public Mutatiereden MutBenefitidR { get; set; }
+        public Mutatiereden MutCloseddateR { get; set; }
+        public Mutatiereden MutCompleteddateR { get; set; }
+        public Actiedoor MutEvalAuthoperator { get; set; }
+        public Mutatiereden MutEvalAuthoperatoridR { get; set; }
+        public Persoon MutEvalAuthperson { get; set; }
+        public Mutatiereden MutEvalAuthpersonidR { get; set; }
+        public Mutatiereden MutFinaldateR { get; set; }
+        public WijzigingImpact MutImpact { get; set; }
+        public Mutatiereden MutImpactidR { get; set; }
+        public Mutatiereden MutImplementationdateR { get; set; }
+        public Actiedoor MutManager { get; set; }
+        public Mutatiereden MutManageridR { get; set; }
+        public Changeversion MutMilestone { get; set; }
+        public Mutatiereden MutMilestoneidR { get; set; }
+        public Actiedoor MutOperator { get; set; }
+        public Mutatiereden MutOperatoridR { get; set; }
+        public Mutatiereden MutPlannedauthdateR { get; set; }
+        public ChangePriority MutPriority { get; set; }
+        public Mutatiereden MutPriorityidR { get; set; }
+        public Actiedoor MutProAuthoperator { get; set; }
+        public Mutatiereden MutProAuthoperatoridR { get; set; }
+        public Persoon MutProAuthperson { get; set; }
+        public Mutatiereden MutProAuthpersonidR { get; set; }
+        public Actiedoor MutReqAuthoperator { get; set; }
+        public Mutatiereden MutReqAuthoperatoridR { get; set; }
+        public Persoon MutReqAuthperson { get; set; }
+        public Mutatiereden MutReqAuthpersonidR { get; set; }
+        public Wijzigingstatus MutStatusNavigation { get; set; }
+        public Mutatiereden MutStatusidR { get; set; }
+        public Changeversion MutVersion { get; set; }
+        public Mutatiereden MutVersionidR { get; set; }
+        public Change Parent { get; set; }
+        public Gebruiker UidwijzigNavigation { get; set; }
+    }
+}
